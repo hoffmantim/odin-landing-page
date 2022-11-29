@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+header {
+    background-color: #1f2937;
+    color: #E5E7EB;
+    margin-top: 0;
+    padding: 5px;
+    margin-bottom: 25px;
+}
+
+nav {
+    height: 25px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: auto;
+    
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    flex: 4;
+    margin: auto;
+    font-size: 18px;
+}
+
+.nav-logo {
+    padding: 5px;
+    height: 15px;
+}
+
+.nav-link {
+    color: #E5E7EB;
+    flex: 1;
+    text-align: right;
+}
+
+.intro {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-areas: 
+        "intro-txt image";
+    padding: 1rem;
+}
+.intro-content {
+    grid-area: intro-txt;
+    padding: 1em;
+}
+
+.intro-img {
+    height: auto;
+    width: 300px;
+    grid-area: image;
+}
+
+.button {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    border-radius: 7px;
+    height: 30px;
+    width: 100px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+.gallery-section {
+    width: 70%;
+    margin: auto;
+}
+
+.gallery-section > h2 {
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.gallery {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.gallery-image {
+    width: 120px;
+    text-align: center;
+    font-size: 16px;
+    color: #1f2937;
+}
+
+.gallery-image > img {
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #3882f6;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+
+}
+
+.quote-box {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+}
+
+.quote-text {
+    color: #1f2937;
+    font-size: 32px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.quote-byline {
+    font-size: 24px;
+    font-weight: 800;
+    text-align: right;
+}
+
+.call-to-action-section {
+    padding: 20px;
+}
+
+.call-to-action-box {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    border-radius: 8px;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.call-to-action-box > .button {
+    border-style: solid;
+    border: 2px solid #E5E7EB;
+    display: table-cell;
+    vertical-align: middle;
+}
+
